@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+	background-image: url('/img/prism.png');
+	background-color: #777777;
+}
+
+main {
+	background-image: url('/img/dust_scratches.png');
+	background-color: #F8F9FA;
+	-webkit-box-shadow: 0 0 50px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 0 50px 0 rgba(0,0,0,0.5);
+}
+
+.row_administrator {
+	background-color: rgba(255,215,0,0.3);
+}
+.row_disabledUser {
+	background-color: rgba(255,0,0,0.05);
+}
+
+footer {
+	color: #aaa;
+}
